@@ -1,6 +1,6 @@
-# NASA APOD
+# ASTRONOMY
 
-<img src="assets/images/apod-today.png" width="540" height="1200">
+<img src="assets/images/apod-today.png" width="270" height="600">
 
 ## Getting Started
 
