@@ -1,6 +1,6 @@
 # NASA APOD
 
-![APOD-TODAY!](assets/images/apod-today.png)
+<img src="assets/images/apod-today.png" width="540" height="1200">
 
 ## Getting Started
 
