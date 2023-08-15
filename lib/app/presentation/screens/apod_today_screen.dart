@@ -67,31 +67,31 @@ class _ApodTodayScreenState extends State<ApodTodayScreen> {
                   ),
                 ),
                 Container(
-                    width: double.infinity,
-                    padding: const EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: colors.primary,
-                      borderRadius: const BorderRadius.all(
-                        Radius.circular(10.0),
-                      ),
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    color: colors.primary,
+                    borderRadius: const BorderRadius.all(
+                      Radius.circular(10.0),
                     ),
-                    margin: const EdgeInsets.only(bottom: 15.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Align(
-                          alignment: Alignment.centerLeft,
-                          child: Text(
-                            state.apod.title ?? "",
-                            style: fonts.titleLarge,
-                          ),
+                  ),
+                  margin: const EdgeInsets.only(bottom: 15.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Flexible(
+                        child: Text(
+                          state.apod.title ?? "",
+                          style: fonts.titleLarge,
                         ),
-                        const Icon(
-                          Icons.file_download_outlined,
-                          color: Colors.white,
-                        ),
-                      ],
-                    )),
+                      ),
+                      const Icon(
+                        Icons.file_download_outlined,
+                        color: Colors.white,
+                      ),
+                    ],
+                  ),
+                ),
                 Text(
                   state.apod.explanation ?? "",
                   style: fonts.bodyMedium,
