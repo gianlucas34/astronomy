@@ -1,3 +1,4 @@
+import 'package:astronomy/ui/widgets/bottom_navigation.dart';
 import 'package:flutter/material.dart';
 
 class Template extends StatelessWidget {
@@ -29,6 +30,7 @@ class Template extends StatelessWidget {
             child: child,
           ),
         ),
+        bottomNavigationBar: const BottomNavigation(),
       ),
     );
   }
