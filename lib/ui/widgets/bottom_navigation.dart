@@ -41,9 +41,6 @@ class _BottomNavigationState extends State<BottomNavigation> {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final colors = theme.colorScheme;
-
     return StreamBuilder<BottomNavigationState>(
       stream: _bloc.state,
       builder: (context, snapshot) {
@@ -53,9 +50,6 @@ class _BottomNavigationState extends State<BottomNavigation> {
           currentIndex: state?.currentIndex ?? 0,
           onTap: _onTap,
           type: BottomNavigationBarType.fixed,
-          backgroundColor: colors.primary,
-          selectedItemColor: Colors.white,
-          unselectedItemColor: Colors.white60,
           items: const [
             BottomNavigationBarItem(
               activeIcon: Icon(Icons.auto_awesome),
