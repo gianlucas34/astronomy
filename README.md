@@ -1,16 +1,24 @@
 # ASTRONOMY
 
-<img src="assets/images/apod-today.png" width="270" height="600">
+<table>
+  <tr>
+    <td><img src="/assets/images/apod-today.png" alt="Apod Today" style="width: 250px;" /></td>
+    <td><img src="/assets/images/last10-apods.png" alt="Last 10 Apods" style="width: 250px;" /></td>
+  </tr>
+</table>
 
-## Getting Started
+# Bibliotecas utilizadas
 
-This project is a starting point for a Flutter application.
+<ul>
+  <li><a href="https://github.com/spebbe/dartz">Dartz</a> - Programação funcional</li>
+  <li><a href="https://github.com/felangel/equatable">Equatable</a> - Ajuda a implementar igualdade baseada em valor</li>
+  <li><a href="https://github.com/dart-lang/http/tree/master/pkgs/http">HTTP</a> - Cliente HTTP</li>
+  <li><a href="https://github.com/java-james/flutter_dotenv">Flutter Dotenv</a> - Carrega variáveis de ambiente</li>
+  <li><a href="https://github.com/RounakTadvi/internet_connection_checker">Internet Connection Checker</a> - Verifica conexão de internet</li>
+  <li><a href="https://github.com/fluttercommunity/get_it">Get It</a> - Injeção de dependências</li>
+  <li><a href="https://github.com/flutter/packages/tree/main/packages/go_router">Go Router</a> - Rotas</li>
+</ul>
 
-A few resources to get you started if this is your first Flutter project:
+# Instaladores
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Instalador Android .apk](https://drive.google.com/file/d/19-xpPdYUgleljr9KyX6orjYfmCmlCHHF/view?usp=sharing)
