@@ -1,5 +1,5 @@
 import 'package:astronomy/providers.dart';
-import 'package:astronomy/ui/states/bottom_navigation_bloc.dart';
+import 'package:astronomy/routes/bottom_navigation/bottom_navigation_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

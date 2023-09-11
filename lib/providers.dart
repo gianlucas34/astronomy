@@ -8,7 +8,7 @@ import 'package:astronomy/core/interfaces/http.dart';
 import 'package:astronomy/core/interfaces/network_info.dart';
 import 'package:astronomy/core/services/http_impl.dart';
 import 'package:astronomy/core/services/network_info_impl.dart';
-import 'package:astronomy/ui/states/bottom_navigation_bloc.dart';
+import 'package:astronomy/routes/bottom_navigation/bottom_navigation_bloc.dart';
 import 'package:get_it/get_it.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 

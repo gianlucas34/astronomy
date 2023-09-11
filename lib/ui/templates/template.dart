@@ -1,4 +1,4 @@
-import 'package:astronomy/ui/widgets/bottom_navigation.dart';
+import 'package:astronomy/routes/bottom_navigation/bottom_navigation.dart';
 import 'package:flutter/material.dart';
 
 class Template extends StatelessWidget {

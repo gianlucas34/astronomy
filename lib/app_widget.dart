@@ -1,4 +1,4 @@
-import 'package:astronomy/routes.dart';
+import 'package:astronomy/routes/routes.dart';
 import 'package:astronomy/ui/themes/theme.dart';
 import 'package:flutter/material.dart';
 
