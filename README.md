@@ -21,4 +21,4 @@
 
 # Instaladores
 
-[Instalador Android .apk](https://drive.google.com/file/d/1okHSjNK40Dc5zXvOB1xEeVRvUU1BQSIm/view?usp=drive_link)
+[Instalador Android .apk](https://drive.google.com/file/d/17lZAnaqoiAxi_NBR8bUL6RwKaHPke8Ex/view?usp=sharing)
