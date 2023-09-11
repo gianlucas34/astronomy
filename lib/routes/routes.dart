@@ -1,5 +1,5 @@
 import 'package:astronomy/app/presentation/screens/apod_today_screen.dart';
-import 'package:astronomy/app/presentation/screens/last_10_screen.dart';
+import 'package:astronomy/app/presentation/screens/last10_screen.dart';
 import 'package:astronomy/ui/templates/template.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';

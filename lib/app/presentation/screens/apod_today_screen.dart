@@ -57,7 +57,14 @@ class _ApodTodayScreenState extends State<ApodTodayScreen> {
                 borderRadius: const BorderRadius.all(
                   Radius.circular(10.0),
                 ),
-                child: Image.network(state.apod.url ?? ""),
+                child: state.apod.url!.contains('/image')
+                    ? Image.network(
+                        state.apod.url ?? "",
+                        fit: BoxFit.fill,
+                        width: double.infinity,
+                        height: 250.0,
+                      )
+                    : Image.asset('assets/images/default.png'),
               ),
               const SizedBox(height: 15.0),
               Container(

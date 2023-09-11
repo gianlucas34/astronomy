@@ -8,11 +8,19 @@ class HttpImpl implements Http {
   final service = http.Client();
 
   @override
-  Future<HttpResult> get(String url) async {
+  Future<HttpResult> get(String url, [Map params = const {}]) async {
     final baseUrl = dotenv.get("BASE_URL");
     final apiKey = dotenv.get("API_KEY");
+    var queryParams = '';
+
+    for (String key in params.keys) {
+      final paramValue = params[key];
+
+      queryParams = '$queryParams&$key=$paramValue';
+    }
+
     final result = await service.get(
-      Uri.parse("$baseUrl$url?api_key=$apiKey&thumbs=true"),
+      Uri.parse("$baseUrl$url?api_key=$apiKey&thumbs=true$queryParams"),
     );
 
     return HttpResult(
